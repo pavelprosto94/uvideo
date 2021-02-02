@@ -49,9 +49,13 @@ screenSaverEnabled: true
 Item {
     id: mainView
 ListView {
-        id: grig 
+        id: grig
+        clip: true
         anchors{
-            fill: parent
+            top: parent.top;
+            bottom: openButton.top;
+            left: parent.left;
+            right: parent.right;
             margins : units.gu(1);
         }
         spacing: units.gu(0.5)
@@ -70,22 +74,55 @@ ListView {
     ListModel{
         id:listModel
     }
+    OpenButton{
+        id: openButton
+        anchors{
+            bottom: parent.bottom
+            left: parent.left
+            right: parent.right
+            margins : units.gu(1);
+        }
+        text: "Open new file";
+        onClicked: {
+            contentPicker.visible=true
+        }
+    }
+    ContentPeerPicker {
+        id: contentPicker
+        anchors.fill: parent
+        visible: false
+        contentType: ContentType.Videos
+        handler: ContentHandler.Source
+
+        onPeerSelected: {
+            peer.selectionType = ContentTransfer.Single
+            var activeTransfer = peer.request()
+            activeTransfer.stateChanged.connect(function() {
+                if (picker.activeTransfer.state === ContentTransfer.Charged) {
+                    picker.activeTransfer.items[0].url
+                }
+            })
+            contentPicker.visible = false
+        }
+       
+        onCancelPressed: {
+            contentPicker.visible = false
+        }
+    }
+
     Connections {
         id: videoimport
-        property bool needclose: false
         property ContentTransfer vtr: null
         target: ContentHub
         onImportRequested: {
             const adr = String(transfer.items[0].url).replace('file://', '');
-            needclose=true
             root.playV(adr);
-            vtr=transfer
+            //vtr=transfer
             //transfer.finalize();
         }
         function finalVideo()
         {
-            vtr.finalize();
-            needclose=false
+            //vtr.finalize();
         }
     }
     Python {
@@ -103,12 +140,15 @@ ListView {
         
             });
             importModule('main', function () {
-                listModel.clear();
-                call('main.explorer.seach', [root.path], function() {});
+                loadVideo();
             });
         }
         onError: {
             console.log('python error: ' + traceback);
+        }
+        function loadVideo(){
+            listModel.clear();
+            call('main.explorer.seach', [], function() {});
         }
     }
 }
@@ -138,10 +178,7 @@ Item {
             request.dialogAccept();
             screenSaver.screenSaverEnabled=true
             root.visibility = Window.Windowed;
-            if (videoimport.needclose)
-            {
-                videoimport.finalVideo();
-            }
+            python.loadVideo();
             stack.pop();
         }else{
             label1.text = qsTr(request.message)

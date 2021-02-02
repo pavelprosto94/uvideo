@@ -24,27 +24,35 @@ CACHEPATH = CACHEPATH[CACHEPATH.find(".com/")+5:]
 CACHEPATH = CACHEPATH[:CACHEPATH.find("/")]
 CACHEPATH = "/home/phablet/.cache/"+CACHEPATH+"/"
 
+'''
+def remove_readonly(fn, path, excinfo):
+    print("try chmod:", path)
+    try:
+        os.chmod(path, 0o755)
+        fn(path)
+    except Exception as exc:
+        print ("Skipped:", path, "because:\n", exc)
+
 def videoFinalize():
     fdata=[]
     for root, dirs, files in os.walk(CACHEPATH+"HubIncoming"):
         for dirname in dirs:
             path=CACHEPATH+"HubIncoming/"+dirname
-            os.chmod(path, stat.S_IWRITE)
-            print(path)
-            shutil.rmtree(path)
-
+            shutil.rmtree(path, onerror=remove_readonly)
+'''
 
 def slow_function(path=""):
+  print(path)
   fdata=[]
   for root, dirs, files in os.walk(path):
         for filename in files:
             if  filename.find(".mp4")>-1 or filename.find(".ogv")>-1 or filename.find(".webm")>-1:
                 fdata.append([filename,"video-x-generic",os.path.join(root, filename)])
-  
-  for line in fdata:
-      pyotherside.send('progress', line)   
-      time.sleep(0.01)    
-  pyotherside.send('finished')
+  if len(fdata)>0:
+    for i in range(1,len(fdata)+1):
+        pyotherside.send('progress', fdata[len(fdata)-i])   
+        time.sleep(0.01)    
+    pyotherside.send('finished')
 
 class Explorer:
     def __init__(self):
@@ -53,7 +61,7 @@ class Explorer:
     def seach(self, path=""):
         if self.bgthread.is_alive():
             return
-        self.bgthread = threading.Thread(target=slow_function(path))
+        self.bgthread = threading.Thread(target=slow_function(CACHEPATH+"HubIncoming"))
         self.bgthread.start()
 
 explorer = Explorer()

@@ -11,6 +11,6 @@
         }
     },
     "version": "1.0.0",
-    "maintainer": "Pavel Prosto <https://t.me/pavelprosto>",
+    "maintainer": "Pavel Prosto <pavelprosto94@gmail.com>",
     "framework" : "@CLICK_FRAMEWORK@"
 }

@@ -125,7 +125,9 @@ position: absolute;
 }
 .namefile{
     display: block;
+    max-width: calc(100vw - 9vmax);
     position: absolute;
+    overflow: hidden;
     font-size: 2vmax;
     top: 2vmax;
     left: 8vmax;
