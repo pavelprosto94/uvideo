@@ -1,0 +1,16 @@
+{
+    "name": "uvideo.pavelprosto",
+    "description": "Alternative video player for Ubuntu Touch",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Video Player",
+    "hooks": {
+        "uVideo": {
+            "apparmor": "uVideo.apparmor",
+            "desktop":  "uVideo.desktop",
+            "content-hub": "src/content-hub.json"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Pavel Prosto <https://t.me/pavelprosto>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}

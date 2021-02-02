@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+    <head>
+        <title></title>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script>  
+function TimeToStr(t) {
+  var sec = parseInt(t % 60);
+  var min = parseInt(t / 60) % 60;
+  var h = parseInt(t / 60 /60);
+  var rez=h.toString()+":";
+  if (min<10) {rez+="0"+min.toString();} else {rez+=min.toString();}
+  rez+=":"
+  if (sec<10) {rez+="0"+sec.toString();} else {rez+=sec.toString();}
+  return rez;
+}
+        $(document).ready(function(){
+          let fileadr = prompt("url_file","videoplayback.mp4");
+          //return a DOM object
+var video = document.getElementById('videoID'); //or
+var video = $('#videoID').get(0); //or
+var video = $('#videoID')[0];
+//return a jQuery object
+var video = $('#videoID');
+var needUpd=false
+var needReturn=false
+var showStat=true
+
+//videoplayback.mp4
+if ((fileadr!=null) && (fileadr!=""))
+{
+  $('#videoID').attr('src', fileadr);
+  filename=fileadr
+  if(filename.indexOf("/")>=0) {
+    filename=filename.substring(filename.lastIndexOf("/")+1)
+  }
+  $('.namefile').text(filename);
+}else{
+  $(".play_area").hide();
+  $("target").hide();
+  $(".progressBar").hide();
+}
+          $("#videoID").on('pause', function() {
+            if (video[0].currentTime==video[0].duration)
+            {
+              $(".play_area .ico").css("background-image", "url(img/refresh.svg)");
+              needReturn=true
+            }
+            needUpd=true
+            showStat=true
+            $(".end_pr").fadeIn("fast");
+            $(".play_area .ico").fadeIn("fast");
+            $(".progressBar").fadeIn("fast");
+          });
+          
+          $('.play_area').on('click', function() {
+            if(video[0].paused) {
+              if (needReturn)
+            {
+              $(".play_area .ico").css("background-image", "url(img/media-play.svg)");
+              needReturn=false
+            }
+              video[0].play();
+              showStat=false
+              $(".end_pr").fadeOut("slow");
+              $(".play_area .ico").fadeOut("slow", function() {
+              $(".progressBar").fadeOut("slow", function() {
+                needUpd=false
+              });
+            });
+          } else {
+            video[0].pause();
+         }
+          });
+
+          video.on('loadedmetadata', function() {
+    $('.duration').text("00:00:00/"+TimeToStr(video[0].duration));
+    });
+ 
+video.on('timeupdate', function() {
+  if (needUpd){
+    var currentPos = video[0].currentTime; //Get currenttime
+    var maxduration = video[0].duration; //Get video duration
+    var percentage = 98 * currentPos / maxduration; //in %
+    $('.duration').text(TimeToStr(video[0].currentTime)+"/"+TimeToStr(video[0].duration));
+    $('.timeBar').css('width', percentage+'%');
+  }
+
+var timeDrag = false;   /* Drag status */
+$('.progressBar').mousedown(function(e) {
+    timeDrag = true;
+    updatebar(e.pageX);
+});
+$(document).mouseup(function(e) {
+    if(timeDrag) {
+        timeDrag = false;
+        updatebar(e.pageX);
+    }
+});
+$(document).mousemove(function(e) {
+    if(timeDrag) {
+        updatebar(e.pageX);
+    }
+});
+ 
+//update Progress Bar control
+var updatebar = function(x) {
+    var progress = $('.progressBar');
+    var maxduration = video[0].duration; //Video duraiton
+    var position = x - progress.offset().left; //Click pos
+    var percentage = 100 * position / progress.width();
+ 
+    //Check within range
+    if(percentage > 100) {
+        percentage = 100;
+    }
+    if(percentage < 0) {
+        percentage = 0;
+    }
+ 
+    //Update progress bar and video currenttime
+    $('.timeBar').css('width', percentage+'%');
+    video[0].currentTime = maxduration * percentage / 100;
+};
+});
+
+$( ".left_pr" ).dblclick(function() {
+  needUpd=true
+  if (video[0].currentTime-10>0)
+  {
+    video[0].currentTime-=10;
+  }else{
+    video[0].currentTime=0
+  }
+  $(".left_pr .ico").fadeIn("fast", function() {
+    $(".left_pr .ico").fadeOut("slow");
+    needUpd=false
+  });
+});
+$( ".right_pr" ).dblclick(function() {
+  needUpd=true
+  if (video[0].currentTime+10<video[0].duration)
+  {
+    video[0].currentTime+=10;
+  }else{
+    video[0].currentTime=video[0].duration
+  }
+  $(".right_pr .ico").fadeIn("fast", function() {
+    $(".right_pr .ico").fadeOut("slow");
+    needUpd=false
+  });
+});
+
+$('.end_pr').on('click', function() {
+  video[0].pause();
+  alert("end_video");
+}); 
+      });
+    </script>  
+    </head>
+    <link rel= "stylesheet" type= "text/css" href= "style.css">
+    <body>
+      <video id="videoID" src=""></video>
+      <div class="target left_pr"><div class="ico" style="display: none;"></div></div>
+      <div class="target right_pr"><div class="ico" style="display: none;"></div></div>
+      <div class="play_area"><div class="ico"></div></div>
+      <div class="progressBar">
+        <span class="duration"></span>
+        <div class="timeBar"></div>
+    </div>
+    <div class="end_pr"><span class="namefile"></span></div>
+    </body>
+</html>

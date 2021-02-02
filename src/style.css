@@ -1,0 +1,134 @@
+body{
+    background-color: black;
+    color:white;
+    max-width: 360px;
+}
+video, div { 
+    display: block;
+}
+video{
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+top: 0;
+z-index: -1;
+}
+.play_area{
+position: absolute;
+width: 30vmax;
+height: 30vmax;
+background-color: transparent;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+}
+.play_area .ico{
+    background-color: rgb(183 183 183 / 40%);
+    border-radius: 5vmin;
+    width: 25vmin;
+    height: 25vmin;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: invert(100%) drop-shadow( 3px 3px 2px rgba(0, 0, 0, .2));
+    background-image: url(img/media-play.svg);
+    box-shadow: inset 0 0 5vmin rgb(255 255 255 / 20%)
+}
+.progressBar
+{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 5vmin;
+    background: linear-gradient(0deg, #424242, transparent);
+}
+.timeBar
+{
+    position: absolute;
+    top: 25%;
+    left: 1%;
+    width: 0;
+    height: 50%;
+    border-radius: 1vmin;
+    background: linear-gradient(0deg,transparent, white 20%, white 80%, transparent);
+}
+.duration{
+    display: block;
+    position: absolute;
+    font-size: 2vmax;
+    top: 0;
+    margin-top:-2.5vmax;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0 0 2vmax black, 0 0 1vmax black;
+}
+.target
+{position: absolute;
+    top: 0;
+    width: 30vmin;
+    height: 100%;
+    background-color: transparent;
+}
+
+.target .ico{
+    width: 20vmin;
+    height: 20vmin;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: invert(100%) drop-shadow( 3px 3px 2px rgba(0, 0, 0, .2));
+    background-image: url(img/media-play.svg);
+}
+
+.left_pr
+{
+    left: 0;
+}
+.left_pr .ico
+{
+    background-image: url(img/media-rewind.svg);
+}
+.right_pr
+{
+    right: 0;
+}
+.right_pr .ico
+{
+    background-image: url(img/media-forward.svg);
+}
+
+.end_pr{
+position: absolute;
+    left: 0;
+    top: 0;
+    width: 8vmax;
+    height: 8vmax;
+    filter: invert(100%) drop-shadow( 3px 3px 2px rgba(0, 0, 0, .2));
+    background-image: url(img/arrow-back.svg);
+    background-size: 80%;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+}
+.namefile{
+    display: block;
+    position: absolute;
+    font-size: 2vmax;
+    top: 2vmax;
+    left: 8vmax;
+    color: black;
+    text-shadow: 0 0 2vmax white, 0 0 1vmax white;
+}
