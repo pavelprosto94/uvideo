@@ -1,10 +1,9 @@
 {
     "policy_groups": [
         "networking",
-        "audio",
-        "video",
-        "video_files",
         "webview",
+        "audio",
+        "video_files_read",
         "keep-display-on",
         "content_exchange"
     ],
