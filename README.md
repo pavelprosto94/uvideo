@@ -1,7 +1,9 @@
 # Video Player
 
 Alternative video player for Ubuntu Touch.
+
 Support *.mp4 .webm .ogv* Video file.
+
 *Tested on Nexus 5*
 
 ![screenshot20210202_134459433.png](_resources/screenshot20210202_134459433.png)
