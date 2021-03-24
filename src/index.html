@@ -16,19 +16,13 @@ function TimeToStr(t) {
   if (sec<10) {rez+="0"+sec.toString();} else {rez+=sec.toString();}
   return rez;
 }
-        $(document).ready(function(){
-          let fileadr = prompt("url_file","videoplayback.mp4");
-          //return a DOM object
-var video = document.getElementById('videoID'); //or
-var video = $('#videoID').get(0); //or
-var video = $('#videoID')[0];
-//return a jQuery object
+$(document).ready(function(){
+let fileadr = prompt("url_file",""); //!!!
 var video = $('#videoID');
-var needUpd=false
+var needUpd=true
 var needReturn=false
 var showStat=true
 
-//videoplayback.mp4
 if ((fileadr!=null) && (fileadr!=""))
 {
   $('#videoID').attr('src', fileadr);
@@ -47,7 +41,10 @@ if ((fileadr!=null) && (fileadr!=""))
             {
               $(".play_area .ico").css("background-image", "url(img/refresh.svg)");
               needReturn=true
+            }else{
+              $(".play_area .ico").css("background-image", "url(img/media-play.svg)");
             }
+            $("icostat").css("background-image", "url(img/media-pause.svg)");
             needUpd=true
             showStat=true
             $(".end_pr").fadeIn("fast");
@@ -59,11 +56,14 @@ if ((fileadr!=null) && (fileadr!=""))
             if(video[0].paused) {
               if (needReturn)
             {
+              $("icostat").css("background-image", "url(img/media-pause.svg)");
               $(".play_area .ico").css("background-image", "url(img/media-play.svg)");
               needReturn=false
             }
               video[0].play();
               showStat=false
+              $("icostat").css("background-image", "url(img/media-play.svg)");
+              $(".play_area .ico").css("background-image", "url(img/media-pause.svg)");
               $(".end_pr").fadeOut("slow");
               $(".play_area .ico").fadeOut("slow", function() {
               $(".progressBar").fadeOut("slow", function() {
@@ -71,20 +71,26 @@ if ((fileadr!=null) && (fileadr!=""))
               });
             });
           } else {
+            needUpd=true
             video[0].pause();
          }
           });
 
           video.on('loadedmetadata', function() {
-    $('.duration').text("00:00:00/"+TimeToStr(video[0].duration));
+    $('.duration').html("00:00:00<icostat></icostat>"+TimeToStr(video[0].duration));
     });
- 
+
+var oldvideopos=0;
 video.on('timeupdate', function() {
+  var currentPos = video[0].currentTime; //Get currenttime
+  if ((currentPos-oldvideopos>60) || (oldvideopos-currentPos>60)){
+    oldvideopos=Math.round(currentPos)
+    alert("#timemark"+oldvideopos)
+  }
+  var maxduration = video[0].duration; //Get video duration
   if (needUpd){
-    var currentPos = video[0].currentTime; //Get currenttime
-    var maxduration = video[0].duration; //Get video duration
     var percentage = 98 * currentPos / maxduration; //in %
-    $('.duration').text(TimeToStr(video[0].currentTime)+"/"+TimeToStr(video[0].duration));
+    $('.duration').html(TimeToStr(video[0].currentTime)+"<icostat class='pl'></icostat>"+TimeToStr(video[0].duration));
     $('.timeBar').css('width', percentage+'%');
   }
 
@@ -126,7 +132,7 @@ var updatebar = function(x) {
 };
 });
 
-$( ".left_pr" ).dblclick(function() {
+$( ".left_pr" ).click(function() {
   needUpd=true
   if (video[0].currentTime-10>0)
   {
@@ -135,11 +141,12 @@ $( ".left_pr" ).dblclick(function() {
     video[0].currentTime=0
   }
   $(".left_pr .ico").fadeIn("fast", function() {
-    $(".left_pr .ico").fadeOut("slow");
-    needUpd=false
+    $(".left_pr .ico").fadeOut("slow", function() {
+      needUpd=false
+    });
   });
 });
-$( ".right_pr" ).dblclick(function() {
+$( ".right_pr" ).click(function() {
   needUpd=true
   if (video[0].currentTime+10<video[0].duration)
   {
@@ -148,8 +155,9 @@ $( ".right_pr" ).dblclick(function() {
     video[0].currentTime=video[0].duration
   }
   $(".right_pr .ico").fadeIn("fast", function() {
-    $(".right_pr .ico").fadeOut("slow");
-    needUpd=false
+    $(".right_pr .ico").fadeOut("slow", function() {
+      needUpd=false
+    });
   });
 });
 
@@ -157,12 +165,14 @@ $('.end_pr').on('click', function() {
   video[0].pause();
   alert("end_video");
 }); 
-      });
+});
     </script>  
     </head>
     <link rel= "stylesheet" type= "text/css" href= "style.css">
     <body>
-      <video id="videoID" src=""></video>
+      <video id="videoID" src="">
+        This Video codec not supported.
+      </video>
       <div class="target left_pr"><div class="ico" style="display: none;"></div></div>
       <div class="target right_pr"><div class="ico" style="display: none;"></div></div>
       <div class="play_area"><div class="ico"></div></div>

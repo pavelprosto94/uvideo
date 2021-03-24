@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080" height="1080" version="1.1" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient1476">
+   <stop stop-color="#ffffff" stop-opacity="0" offset="0"/>
+   <stop stop-color="#ffffaa" stop-opacity=".050655" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1157-4">
+   <stop stop-color="#ffffff" stop-opacity=".25373" offset="0"/>
+   <stop stop-color="#ffffaa" stop-opacity=".21339" offset="1"/>
+  </linearGradient>
+  <clipPath id="clipPath100">
+   <use width="100%" height="100%" xlink:href="#g96"/>
+  </clipPath>
+  <clipPath id="clipPath137">
+   <use width="100%" height="100%" xlink:href="#g133"/>
+  </clipPath>
+  <clipPath id="clipPath161">
+   <use width="100%" height="100%" xlink:href="#g157"/>
+  </clipPath>
+  <clipPath id="clipPath179">
+   <use width="100%" height="100%" xlink:href="#g175"/>
+  </clipPath>
+  <clipPath id="clipPath100-2">
+   <use width="100%" height="100%" xlink:href="#g96-3"/>
+  </clipPath>
+  <clipPath id="clipPath137-1">
+   <use width="100%" height="100%" xlink:href="#g133-5"/>
+  </clipPath>
+  <clipPath id="clipPath161-7">
+   <use width="100%" height="100%" xlink:href="#g157-2"/>
+  </clipPath>
+  <clipPath id="clipPath179-2">
+   <use width="100%" height="100%" xlink:href="#g175-8"/>
+  </clipPath>
+  <mask id="mask326" maskUnits="userSpaceOnUse">
+   <path d="m201.42 347.9h153.57v206.45h-153.57z" fill="#ffff00"/>
+  </mask>
+  <linearGradient id="linearGradient1159" x1="201.66" x2="354.98" y1="451.18" y2="451.18" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1157-4"/>
+  <clipPath id="clipPath100-3">
+   <use width="100%" height="100%" xlink:href="#g96-8"/>
+  </clipPath>
+  <clipPath id="clipPath137-2">
+   <use width="100%" height="100%" xlink:href="#g133-50"/>
+  </clipPath>
+  <clipPath id="clipPath161-3">
+   <use width="100%" height="100%" xlink:href="#g157-6"/>
+  </clipPath>
+  <clipPath id="clipPath179-9">
+   <use width="100%" height="100%" xlink:href="#g175-0"/>
+  </clipPath>
+  <clipPath id="clipPath100-2-0">
+   <use width="100%" height="100%" xlink:href="#g96-3-3"/>
+  </clipPath>
+  <mask id="mask326-1" maskUnits="userSpaceOnUse">
+   <path d="m201.42 347.9h153.57v206.45h-153.57z" fill="#ffff00"/>
+  </mask>
+  <clipPath id="clipPath137-1-5">
+   <use width="100%" height="100%" xlink:href="#g133-5-4"/>
+  </clipPath>
+  <clipPath id="clipPath161-7-7">
+   <use width="100%" height="100%" xlink:href="#g157-2-2"/>
+  </clipPath>
+  <clipPath id="clipPath179-2-5">
+   <use width="100%" height="100%" xlink:href="#g175-8-4"/>
+  </clipPath>
+  <linearGradient id="linearGradient1437" x1="201.66" x2="354.98" y1="451.18" y2="451.18" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1476"/>
+  <linearGradient id="linearGradient1453" x1="201.66" x2="354.98" y1="451.18" y2="451.18" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ffffff" stop-opacity=".12305" offset="0"/>
+   <stop stop-color="#ffffaa" stop-opacity=".050655" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1484" x1="201.66" x2="508.02" y1="451.27" y2="451.27" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#db461b" stop-opacity=".75" offset="0"/>
+   <stop stop-color="#db461b" stop-opacity=".74408" offset="1"/>
+  </linearGradient>
+  <clipPath id="clipPath100-4">
+   <use width="100%" height="100%" xlink:href="#g96-31"/>
+  </clipPath>
+  <clipPath id="clipPath137-0">
+   <use width="100%" height="100%" xlink:href="#g133-2"/>
+  </clipPath>
+  <clipPath id="clipPath161-8">
+   <use width="100%" height="100%" xlink:href="#g157-68"/>
+  </clipPath>
+  <clipPath id="clipPath179-8">
+   <use width="100%" height="100%" xlink:href="#g175-2"/>
+  </clipPath>
+  <clipPath id="clipPath100-4-4">
+   <use width="100%" height="100%" xlink:href="#g96-31-2"/>
+  </clipPath>
+  <clipPath id="clipPath137-0-5">
+   <use width="100%" height="100%" xlink:href="#g133-2-2"/>
+  </clipPath>
+  <clipPath id="clipPath161-8-4">
+   <use width="100%" height="100%" xlink:href="#g157-68-6"/>
+  </clipPath>
+  <clipPath id="clipPath179-8-7">
+   <use width="100%" height="100%" xlink:href="#g175-2-0"/>
+  </clipPath>
+  <linearGradient id="linearGradient1030" x1="105.27" x2="200.02" y1="347.66" y2="347.66" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1157-4"/>
+  <linearGradient id="linearGradient1047" x1="174.14" x2="200.27" y1="368.44" y2="368.44" gradientTransform="matrix(.8045 0 0 .93545 39.153 26.075)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1476"/>
+ </defs>
+ <g transform="matrix(.36866 0 0 .36866 123.34 39.97)">
+  <path d="m200.48 287.61c-26.026-0.33759-27.991-0.34107-64.707-4.3113-41.011-4.0738-65.265-32.366-72.039-48.085-9.5501-23.834-12.152-56.388-2.8615-78.799 9.2065-21.033 24.171-38.995 44.335-47.106 27.902-11.224 106.5-14.643 161.19-7.0123 28.426 3.9665 42.207 10.754 57.445 28.295 8.0182 9.2298 9.7641 11.953 13.581 21.183 6.2202 15.041 7.7058 23.059 7.6436 41.251-0.0627 18.306-1.981 27.755-8.6774 42.745-6.3109 14.127-17.615 27.169-35.757 37.622-22.501 12.965-59.3 12.246-100.15 14.218z" fill="#181818" stroke-width="1.032"/>
+  <g transform="matrix(1.1965,0,0,1.3789,-224.26,-429.84)" clip-path="url(#clipPath100)" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+   <g id="g96" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+    <g clip-path="url(#clipPath137)" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+     <g id="g133" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+      <g clip-path="url(#clipPath161)" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+       <g id="g157" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+        <g clip-path="url(#clipPath179)" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+         <g id="g175" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+          <path d="m227.54 378.42c34.025-31.76 83.799-29.784 127.41-30.152 42.538-0.35896 91.957-3.5818 124.74 27.307 24.566 23.149 28.599 47.986 28.317 74.635-0.28768 27.166-8.8702 54.076-31.098 77.758-27.032 28.801-79.998 26.162-121.93 26.381-43.425 0.22769-88.747 3.4747-127.22-28.393-25.975-21.513-26.855-49.051-25.858-75.747 1.0478-28.062 1.2845-49.054 25.642-71.791z" clip-path="none" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers"/>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g transform="matrix(1.1965,0,0,1.3789,-224.26,-429.88)" clip-path="url(#clipPath100-2)" fill="url(#linearGradient1159)" mask="url(#mask326)" stroke="#db461b" stroke-width="3.8066">
+   <g id="g96-3" fill="url(#linearGradient1159)" stroke="#db461b" stroke-width="3.8066">
+    <g clip-path="url(#clipPath137-1)" fill="url(#linearGradient1159)" stroke="#db461b" stroke-width="3.8066">
+     <g id="g133-5" fill="url(#linearGradient1159)" stroke="#db461b" stroke-width="3.8066">
+      <g clip-path="url(#clipPath161-7)" fill="url(#linearGradient1159)" stroke="#db461b" stroke-width="3.8066">
+       <g id="g157-2" fill="url(#linearGradient1159)" stroke="#db461b" stroke-width="3.8066">
+        <g clip-path="url(#clipPath179-2)" fill="url(#linearGradient1159)" stroke="#db461b" stroke-width="3.8066">
+         <g id="g175-8" fill="url(#linearGradient1159)" stroke="#db461b" stroke-width="3.8066">
+          <path d="m227.54 378.42c34.025-31.76 83.799-29.784 127.41-30.152 42.538-0.35896 91.957-3.5818 124.74 27.307 24.566 23.149 31.113 45.124 30.831 71.774-0.28768 27.166-11.384 56.938-33.612 80.62-27.032 28.801-79.998 26.162-121.93 26.381-43.425 0.22769-88.747 3.4747-127.22-28.393-25.975-21.513-26.855-49.051-25.858-75.747 1.0478-28.062 1.2845-49.054 25.642-71.791z" fill="url(#linearGradient1159)" stroke="#db461b" stroke-width="3.8066"/>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g transform="matrix(1.0745,0,0,1.1481,-180.97,-325.81)" clip-path="url(#clipPath100-3)" fill="#1a1a1a" stroke="url(#linearGradient1484)" stroke-width="8.8042">
+   <g id="g96-8" fill="#1a1a1a" stroke="url(#linearGradient1484)" stroke-width="8.8042">
+    <g clip-path="url(#clipPath137-2)" fill="#1a1a1a" stroke="url(#linearGradient1484)" stroke-width="8.8042">
+     <g id="g133-50" fill="#1a1a1a" stroke="url(#linearGradient1484)" stroke-width="8.8042">
+      <g clip-path="url(#clipPath161-3)" fill="#1a1a1a" stroke="url(#linearGradient1484)" stroke-width="8.8042">
+       <g id="g157-6" fill="#1a1a1a" stroke="url(#linearGradient1484)" stroke-width="8.8042">
+        <g clip-path="url(#clipPath179-9)" fill="#1a1a1a" stroke="url(#linearGradient1484)" stroke-width="8.8042">
+         <g id="g175-0" fill="#1a1a1a" stroke="url(#linearGradient1484)" stroke-width="8.8042">
+          <path d="m227.54 378.42c34.025-31.76 83.799-29.784 127.41-30.152 42.538-0.35896 91.957-3.5818 124.74 27.307 24.566 23.149 28.599 47.986 28.317 74.635-0.28768 27.166-8.8702 54.076-31.098 77.758-27.032 28.801-79.998 26.162-121.93 26.381-43.425 0.22769-88.747 3.4747-127.22-28.393-25.975-21.513-26.855-49.051-25.858-75.747 1.0478-28.062 1.2845-49.054 25.642-71.791z" clip-path="none" fill="#1a1a1a" stroke="url(#linearGradient1484)" stroke-width="8.8042"/>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g transform="matrix(.09206 0 0 .41955 338.13 16.328)" clip-path="url(#clipPath100-4)" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+   <g id="g96-31" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+    <g clip-path="url(#clipPath137-0)" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+     <g id="g133-2" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+      <g clip-path="url(#clipPath161-8)" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+       <g id="g157-68" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+        <g clip-path="url(#clipPath179-8)" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+         <g id="g175-2" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+          <path d="m497.71 331.68c-16.462-29.931-36.518-29.778 7.0951-30.146 42.538-0.35896 91.957-3.5818 124.74 27.307 24.566 23.149 28.599 47.986 28.317 74.635-0.2877 27.166-8.8702 54.076-31.098 77.758-27.032 28.801-79.998 26.162-121.93 26.381-43.425 0.22769-23.424 0.51854-6.907-28.4 19.955-34.937 18.502-49.912 19.499-76.608 1.0478-28.062-1.0305-36.955-19.716-70.929z" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers"/>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g transform="matrix(-.092017 -.0032536 -.010887 .41936 66.148 18.482)" clip-path="url(#clipPath100-4-4)" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+   <g id="g96-31-2" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+    <g clip-path="url(#clipPath137-0-5)" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+     <g id="g133-2-2" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+      <g clip-path="url(#clipPath161-8-4)" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+       <g id="g157-68-6" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+        <g clip-path="url(#clipPath179-8-7)" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+         <g id="g175-2-0" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers">
+          <path d="m493.97 337.94c-11.41-28.647-42.142-34.69 1.471-35.058 42.538-0.35896 91.957-3.5818 124.74 27.307 24.566 23.149 28.599 47.986 28.317 74.635-0.2877 27.166-8.8702 54.076-31.098 77.758-27.032 28.801-79.998 26.162-121.93 26.381-43.425 0.22769-12.434 0.13239-0.38789-28.93 14.953-36.076 11.802-49.106 12.799-75.802 1.0478-28.062-2.5202-37.696-13.91-66.293z" fill="#db461b" stroke="#db461b" stroke-linejoin="round" stroke-width="3.8066" style="paint-order:stroke fill markers"/>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <path d="m222.43 86.621c-1.7281-1.2552-28.587-0.52509-28.587-0.52509s-26.143 0.05035-28.091 1.9372c-1.9484 1.8869-2.4206 22.704-2.4206 22.704s-0.35389 22.259 1.5508 24.238c1.9046 1.9793 28.898 1.427 28.898 1.427s27.463 0.3627 28.762-1.4122c1.2985-1.7749 1.1635-14.056 1.1635-14.056l9.9539 4.977s7.3647 4.0634 8.8732 2.6932c1.5084-1.3703 1.0808-20.113 1.0808-20.113s0.7954-16.323-1.8079-17.826c-2.6034-1.503-8.146 2.8947-8.146 2.8947l-9.9539 7.4655s0.45299-13.151-1.2751-14.406zm-39.957 34.314c-5.4996 0-9.954-4.4544-9.954-9.954s4.4544-9.9539 9.954-9.9539 9.9539 4.4544 9.9539 9.9539c0 5.4996-4.4544 9.954-9.9539 9.954zm24.885 0c-5.4996 0-9.9539-4.4544-9.9539-9.954s4.4544-9.9539 9.9539-9.9539c5.4996 0 9.954 4.4544 9.954 9.9539 0 5.4996-4.4544 9.954-9.954 9.954z" fill="#ffffff" fill-opacity=".81065" stroke-width="4.977"/>
+ <g transform="matrix(.36866 0 0 .36866 123.34 39.97)">
+  <g transform="matrix(1.0438,0,0,1.0625,-169.89,-284.01)" clip-path="url(#clipPath100-2-0)" fill="url(#linearGradient1453)" mask="url(#mask326-1)">
+   <g id="g96-3-3" fill="url(#linearGradient1159)">
+    <g clip-path="url(#clipPath137-1-5)" fill="url(#linearGradient1159)">
+     <g id="g133-5-4" fill="url(#linearGradient1159)">
+      <g clip-path="url(#clipPath161-7-7)" fill="url(#linearGradient1159)">
+       <g id="g157-2-2" fill="url(#linearGradient1159)">
+        <g clip-path="url(#clipPath179-2-5)" fill="url(#linearGradient1159)">
+         <g id="g175-8-4" fill="url(#linearGradient1159)">
+          <path d="m227.54 378.42c34.025-31.76 83.799-29.784 127.41-30.152 42.538-0.35896 91.957-3.5818 124.74 27.307 24.566 23.149 28.599 47.986 28.317 74.635-0.28768 27.166-8.8702 54.076-31.098 77.758-27.032 28.801-79.998 26.162-121.93 26.381-43.425 0.22769-88.747 3.4747-127.22-28.393-25.975-21.513-26.855-49.051-25.858-75.747 1.0478-28.062 1.2845-49.054 25.642-71.791z" clip-path="none" fill="url(#linearGradient1437)"/>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g transform="matrix(.36866 0 0 .36866 123.34 57.253)">
+  <path d="m106.73 307.73c9.9321-12.371 93.994-13.22 93.994-13.22s82.296 0.27803 92.629 13.274c10.937 13.755 2.581 40.929 2.581 40.929l-10.936 51.886h-170l-10.431-51.886s-8.8176-27.307 2.162-40.982z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#db461b" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+  <path d="m200.02 296.47c-3.7118 0.0445-80.172 1.0956-89.467 12.747-10.529 13.199-2.0734 39.556-2.0734 39.556l10.004 50.078h81.536z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="url(#linearGradient1030)" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+  <path d="m174.14 333.06 51.666-0.24416-5.8033 65.739h-40z" fill="#1a1a1a" stroke="#db461b" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".5" stroke-width="4.9887" style="paint-order:normal"/>
+  <path d="m200.27 337.53-21.024 0.12789 4.717 66.282h16.307z" fill="url(#linearGradient1047)" style="paint-order:normal"/>
+  <path d="m304.65 346.14s20.942-4.9002 26.448 2.0175c10.866 13.652-7.8285 51.756-7.8285 51.756l-28.336 0.12695z" fill="#db461b" style="paint-order:normal"/>
+  <path d="m95.746 347.22s-20.942-4.9002-26.448 2.0175c-10.866 13.652 7.8285 51.756 7.8285 51.756l28.336 0.12695z" fill="#db461b" style="paint-order:normal"/>
+ </g>
+ <style type="text/css">.st0{fill:#FF5050;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#9B0270;}
+	.st3{fill:#FFD952;}
+	.st4{fill:#FF9D00;}
+	.st5{fill:#DFE8F4;}
+	.st6{fill:#52EFBB;}
+	.st7{fill:#33BC8B;}
+	.st8{fill:#0795FF;}
+	.st9{fill:#500599;}
+	.st10{fill:#4D28A8;}
+	.st11{fill:#35DC86;}
+	.st12{fill:#27A88F;}
+
+   .small { fill: #aaa; }
+   .heavy { fill: #db461b; }</style>
+   <text
+       x="150"
+       y="230"
+       style="font-size:28px;line-height:1.25;font-family:sans-serif;word-spacing:0px;white-space:pre;shape-inside:url(#rect1078);"
+       xml:space="preserve"
+       fill="#e6e6e6"
+       id="text228">uVideo</text>
+</svg>

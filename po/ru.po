@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the uvideo.pavelprosto package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: uvideo.pavelprosto\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-03 15:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#: ../qml/ImportPage.qml:27
+msgid "    Import video file from:"
+msgstr "    Импортировать видео из:"
+
+#: ../qml/Main.qml:36
+msgid ""
+"Video playlist is emty.\n"
+"Click \"+\" to add new videos"
+msgstr ""
+"Видео плейлист пуст.\n"
+"Нажми \"+\", чтобы добавить видео"
+
+#: ../qml/Main.qml:37
+msgid "Add new files"
+msgstr "Добавить новые файлы"
+
+#: ../qml/Main.qml:38
+msgid "Video"
+msgstr "Видео"
+
+#: ../qml/Main.qml:39
+msgid "../src/faq/en.html"
+msgstr "../src/faq/ru.html"
+
+#: ../qml/Main.qml:305
+msgid "Do you want to continue playing the video from the previous point?"
+msgstr "Желаете ли вы продолжить воспроизведение с предыдущего места?"
+
+#: ../qml/Main.qml:307
+msgid "Yes"
+msgstr "Да"
+
+#: ../qml/Main.qml:308
+msgid "No"
+msgstr "Нет"
+
+#: ../qml/MenuProg.qml:62
+msgid "Donate"
+msgstr "Помочь"
+
+#: ../qml/MenuProg.qml:94 ../qml/VideoSettings.qml:18
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../qml/MenuProg.qml:127
+msgid "Help"
+msgstr "Справка"
+
+#: ../qml/MyDialog.qml:12
+msgid "Ok"
+msgstr "Да"
+
+#: ../qml/MyDialog.qml:54 ../qml/MyDialog.qml:63 ../qml/MyDialog.qml:80
+msgid "Close"
+msgstr "Зыкрыть"
+
+#: ../qml/VideoSettings.qml:39
+msgid "Programm theme:"
+msgstr "Тема оформления"
+
+#: ../qml/VideoSettings.qml:50
+msgid "System"
+msgstr "Системная"
+
+#: ../qml/VideoSettings.qml:84
+msgid "Video play mode:"
+msgstr "Режим воспроизведения видео"
+
+#: ../qml/VideoSettings.qml:95
+msgid "Windowed"
+msgstr "В окне"
+
+#: ../qml/VideoSettings.qml:96
+msgid "FullScreen"
+msgstr "Во весь экран"
+
+#: ../qml/VideoSettings.qml:129
+msgid "Clear all timemarks for videos:"
+msgstr "Удалить все временные метки"
+
+#: ../qml/VideoSettings.qml:141
+msgid ""
+"When you watch a video, the program creates timemarks so that you can "
+"continue watching the video next time."
+msgstr ""
+"Когда вы просматриваете видео, программа создает временные закладки, что бы вы "
+"могли продолжить просмотр в следующий раз."
+
+#: ../qml/VideoSettings.qml:166
+msgid "Clear"
+msgstr "Очистить"
+
+#: ../qml/VideoSettings.qml:168
+msgid "All timemarks removed"
+msgstr "Все временные метки удалены"
+
+#: ../qml/VideoSettings.qml:187
+msgid "Save"
+msgstr "Сохранить"
+
+#: ../qml/VideoSettings.qml:203
+msgid "Cancel"
+msgstr "Отмена"
+
+#: uVideo.desktop.in.h:1
+msgid "Video Player"
+msgstr "Видео Плеер"

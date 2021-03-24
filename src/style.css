@@ -1,7 +1,14 @@
 body{
     background-color: black;
     color:white;
-    max-width: 360px;
+}
+body.faq{
+    background-color: white;
+    color:rgb(48, 48, 48);
+    max-width: 100%;
+    text-indent: 4vmax;
+    font-size: 3vmax;
+    margin-top: 8vmax;
 }
 video, div { 
     display: block;
@@ -69,13 +76,13 @@ margin: auto;
     margin-top:-2.5vmax;
     width: 100%;
     text-align: center;
-    text-shadow: 0 0 2vmax black, 0 0 1vmax black;
+    text-shadow: 0 0 2vmax #aaa, 0 0 1vmax black;
 }
 .target
 {position: absolute;
     top: 0;
     width: 30vmin;
-    height: 100%;
+    height: calc(100vh - 10vmin);
     background-color: transparent;
 }
 
@@ -123,6 +130,40 @@ position: absolute;
     /*background-position: center;*/
     background-repeat: no-repeat;
 }
+.faq .end_pr{
+    position: fixed;
+    width: 100%;
+    height: 6vmax;
+    background-size: contain;
+    background-color: white;
+    border-bottom: 0.1vmax solid #ccc;
+    filter: drop-shadow( 0.5vmax 0.5vmax 1vmax rgba(0, 0, 0, 0.1));
+}    
+.faq .end_pr span{
+    display: block;
+    max-width: calc(100vw - 9vmax);
+    position: absolute;
+    overflow: hidden;
+    font-size: 3.5vmax;
+    top: 1vmax;
+    left: 3vmax;
+    color: black;
+    text-shadow: 0 0 2vmax white, 0 0 1vmax white;
+}
+
+.faq img{
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    border: 0.1vmax solid #aaa;
+    border-radius: 2vmax;
+    z-index: -1;
+}
+.faq img.small{
+    width: 70%;
+}
+
 .namefile{
     display: block;
     max-width: calc(100vw - 9vmax);
@@ -133,4 +174,20 @@ position: absolute;
     left: 8vmax;
     color: black;
     text-shadow: 0 0 2vmax white, 0 0 1vmax white;
+}
+
+icostat {
+    display: inline-block;
+    position: relative;
+    top: 0.5vmax;
+    width: 3vmax;
+    height: 3vmax;
+    background-position: right bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: invert(100%) drop-shadow( 1px 1px 2vmax rgba(0, 0, 0, .5));
+    background-image: url(img/media-pause.svg);
+}
+icostat.pl {
+    background-image: url(img/media-play.svg);
 }
