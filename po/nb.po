@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the uvideo.pavelprosto package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: uvideo.pavelprosto\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-24 18:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: NORWEGIAN <LL@li.org>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/ImportPage.qml:27
+msgid "    Import video file from:"
+msgstr "    Importer videofil fra:"
+
+#: ../qml/Main.qml:36
+msgid ""
+"Video playlist is emty.\n"
+"Click \"+\" to add new videos"
+msgstr ""
+"Videospillelisten er tom.\n"
+"Klikk \"+\"for å legge til nye videoer"
+
+#: ../qml/Main.qml:37
+msgid "Add new files"
+msgstr "Legg til nye filer"
+
+#: ../qml/Main.qml:38
+msgid "Video"
+msgstr "Video"
+
+#: ../qml/Main.qml:39
+msgid "../src/faq/en.html"
+msgstr "../src/faq/en.html"
+
+#: ../qml/Main.qml:317
+msgid "Do you want to continue playing the video from the previous point?"
+msgstr "Vil du fortsette å spille av videoen fra forrige punkt?"
+
+#: ../qml/Main.qml:319
+msgid "Yes"
+msgstr "Ja"
+
+#: ../qml/Main.qml:320
+msgid "No"
+msgstr "Nei"
+
+#: ../qml/MenuProg.qml:62
+msgid "Donate"
+msgstr "Doner"
+
+#: ../qml/MenuProg.qml:94 ../qml/VideoSettings.qml:18
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: ../qml/MenuProg.qml:127
+msgid "Help"
+msgstr "Hjelp"
+
+#: ../qml/MyDialog.qml:12
+msgid "Ok"
+msgstr "Ok"
+
+#: ../qml/MyDialog.qml:54 ../qml/MyDialog.qml:63 ../qml/MyDialog.qml:80
+msgid "Close"
+msgstr "Lukk"
+
+#: ../qml/VideoSettings.qml:39
+msgid "Programm theme:"
+msgstr "Programtema"
+
+#: ../qml/VideoSettings.qml:50
+msgid "System"
+msgstr "System"
+
+#: ../qml/VideoSettings.qml:85
+msgid "Video play mode:"
+msgstr "Videoavspillingsmodus:"
+
+#: ../qml/VideoSettings.qml:96
+msgid "Windowed"
+msgstr "Vinduer"
+
+#: ../qml/VideoSettings.qml:97
+msgid "FullScreen"
+msgstr "Fullskjerm"
+
+#: ../qml/VideoSettings.qml:129
+msgid "Clear all timemarks for videos:"
+msgstr "Fjern alle tidsmerker for videoer:"
+
+#: ../qml/VideoSettings.qml:141
+msgid ""
+"When you watch a video, the program creates timemarks so that you can "
+"continue watching the video next time."
+msgstr ""
+"Når du ser på en video, oppretter programmet tidsmerker slik at du kan "
+"fortsette å se på videoen neste gang."
+
+#: ../qml/VideoSettings.qml:166
+msgid "Clear"
+msgstr "Tøm"
+
+#: ../qml/VideoSettings.qml:169
+msgid "All timemarks removed"
+msgstr "Alle tidsmerker fjernet"
+
+#: ../qml/VideoSettings.qml:189
+msgid "Save"
+msgstr "Lagre"
+
+#: ../qml/VideoSettings.qml:205
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: uVideo.desktop.in.h:1
+msgid "Video Player"
+msgstr "Video Player"
