@@ -7,10 +7,11 @@
         "uVideo": {
             "apparmor": "uVideo.apparmor",
             "desktop":  "uVideo.desktop",
-            "content-hub": "src/content-hub.json"
+            "content-hub": "src/content-hub.json",
+            "urls": "src/urls-dispatcher.json"
         }
     },
-    "version": "1.1.0",
+    "version": "1.1.1",
     "maintainer": "Pavel Prosto <pavelprosto94@gmail.com>",
     "framework" : "@CLICK_FRAMEWORK@"
 }

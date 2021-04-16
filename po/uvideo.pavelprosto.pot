@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uvideo.pavelprosto\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-24 18:47+0000\n"
+"POT-Creation-Date: 2021-04-16 07:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,11 +109,15 @@ msgstr ""
 msgid "All timemarks removed"
 msgstr ""
 
-#: ../qml/VideoSettings.qml:189
-msgid "Save"
+#: ../qml/VideoSettings.qml:185
+msgid "Create uHome link"
 msgstr ""
 
 #: ../qml/VideoSettings.qml:205
+msgid "Save"
+msgstr ""
+
+#: ../qml/VideoSettings.qml:221
 msgid "Cancel"
 msgstr ""
 

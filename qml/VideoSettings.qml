@@ -171,6 +171,22 @@ OpenButton{
       });
     }
   }
+OpenButton{
+  id: linkButton
+  anchors{
+          top: remButton.bottom
+          topMargin: units.gu(2)
+          leftMargin: units.gu(2)
+          right: parent.right
+          rightMargin: units.gu(2)
+  }
+  width: units.gu(26)
+  iconName: "home"
+  text: i18n.tr("Create uHome link")
+    onClicked: {
+      Qt.openUrlExternally("uhome://createlink/?name=VideoPlayer&url=uvideo://&backgroundcolor=#00000000&icon=img/uVideo.svg")
+    }
+  }
 //"Remove all timemarks for videos"
 }}
 OpenButton{
