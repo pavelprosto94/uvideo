@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uvideo.pavelprosto\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-24 18:47+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2021-04-16 07:22+0000\n"
+"PO-Revision-Date: 2021-04-20 13:56+0200\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -39,7 +39,7 @@ msgstr "Video"
 
 #: ../qml/Main.qml:39
 msgid "../src/faq/en.html"
-msgstr "../src/faq/en.html"
+msgstr "../src/faq/nl.html"
 
 #: ../qml/Main.qml:317
 msgid "Do you want to continue playing the video from the previous point?"
@@ -102,23 +102,27 @@ msgid ""
 "When you watch a video, the program creates timemarks so that you can "
 "continue watching the video next time."
 msgstr ""
-"Tijdens het bekijken van een video worden er tijdsaanduidingen "
-"toegevoegd zodat je de volgende keer vanaf één van die posities kunt "
-"verdergaan met afspelen."
+"Tijdens het bekijken van een video worden er tijdsaanduidingen toegevoegd "
+"zodat je de volgende keer vanaf één van die posities kunt verdergaan met "
+"afspelen."
 
 #: ../qml/VideoSettings.qml:166
 msgid "Clear"
 msgstr "Wissen"
 
-#: ../qml/VideoSettings.qml:168
+#: ../qml/VideoSettings.qml:169
 msgid "All timemarks removed"
 msgstr "Alle tijdsaanduidingen zijn gewist"
 
-#: ../qml/VideoSettings.qml:189
+#: ../qml/VideoSettings.qml:185
+msgid "Create uHome link"
+msgstr "uHome-snelkoppeling maken"
+
+#: ../qml/VideoSettings.qml:205
 msgid "Save"
 msgstr "Opslaan"
 
-#: ../qml/VideoSettings.qml:205
+#: ../qml/VideoSettings.qml:221
 msgid "Cancel"
 msgstr "Annuleren"
 
