@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the uvideo.pavelprosto package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: uvideo.pavelprosto\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-24 18:47+0000\n"
-"PO-Revision-Date: 2021-03-24 21:00+0000\n"
+"POT-Creation-Date: 2021-04-16 07:22+0000\n"
+"PO-Revision-Date: 2021-04-25 18:18+0200\n"
 "Last-Translator: Anne017 <anneonyme017@openmailbox.org>\n"
+"Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,7 +42,8 @@ msgstr "../src/faq/fr.html"
 
 #: ../qml/Main.qml:317
 msgid "Do you want to continue playing the video from the previous point?"
-msgstr "Voulez-vous reprendre la lecture de la vidéo là où vous vous êtes arrêté ?"
+msgstr ""
+"Voulez-vous reprendre la lecture de la vidéo là où vous vous êtes arrêté ?"
 
 #: ../qml/Main.qml:319
 msgid "Yes"
@@ -101,8 +102,9 @@ msgid ""
 "When you watch a video, the program creates timemarks so that you can "
 "continue watching the video next time."
 msgstr ""
-"Lorsque vous regardez des vidéos, l'application crée des repères temporels de manière à ce "
-"que vous puissiez continuer à regarder la vidéo la fois suivante."
+"Lorsque vous regardez des vidéos, l'application crée des repères temporels "
+"de manière à ce que vous puissiez continuer à regarder la vidéo la fois "
+"suivante."
 
 #: ../qml/VideoSettings.qml:166
 msgid "Clear"
@@ -112,11 +114,15 @@ msgstr "Effacer"
 msgid "All timemarks removed"
 msgstr "Tous les repères temporels ont été effacés"
 
-#: ../qml/VideoSettings.qml:189
+#: ../qml/VideoSettings.qml:185
+msgid "Create uHome link"
+msgstr "Créer un lien dans uHome"
+
+#: ../qml/VideoSettings.qml:205
 msgid "Save"
 msgstr "Enregistrer"
 
-#: ../qml/VideoSettings.qml:205
+#: ../qml/VideoSettings.qml:221
 msgid "Cancel"
 msgstr "Annuler"
 
